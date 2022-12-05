@@ -1,0 +1,64 @@
+{
+   "phones": [
+      {
+         "name": "Pixel 3a",
+         "release": "May 2019",
+         "os": "Android 9",
+         "memory": 64,
+         "battery": 3000,
+         "headphone": true,
+         "price": 100,
+         "status": true
+      },
+      {
+         "name": "Pixel 4a",
+         "release": "November 2020",
+         "os": "Android 11",
+         "memory": 128,
+         "battery": 3885,
+         "headphone": true,
+         "price": 150,
+         "status": true
+      },
+      {
+         "name": "Pixel 5a",
+         "release": "August 2021",
+         "os": "Android 11",
+         "memory": 128,
+         "battery": 4680,
+         "headphone": true,
+         "price": 347,
+         "status": true
+      },
+      {
+         "name": "Pixel 6a",
+         "release": "July 2022",
+         "os": "Android 12",
+         "memory": 128,
+         "battery": 4410,
+         "headphone": false,
+         "price": 449,
+         "status": true
+      },
+      {
+         "name": "Pixel 7",
+         "release": "October 2022",
+         "os": "Android 13",
+         "memory": 256,
+         "battery": 4355,
+         "headphone": false,
+         "price": 448,
+         "status": true
+      },
+      {
+         "name": "Pixel 7 Pro",
+         "release": "October 2022",
+         "os": "Android 13",
+         "memory": 512,
+         "battery": 5000,
+         "headphone": false,
+         "price": 740,
+         "status": true
+      }
+   ]
+}
