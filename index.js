@@ -7,8 +7,18 @@ const fs = require('fs');
 //Import the path module
 const path = require('path');
 
+const cors = require('cors');
+
 //Create an object called server
 const server = http.createServer((req, res) => {
+
+    const headers = {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "OPTIONS, POST, GET",
+        "Access-Control-Max-Age": 2592000,
+        "Content-Type": 'application/json'
+    };
+
     console.log(req.url)
 
     //If home page is requested
@@ -30,7 +40,7 @@ const server = http.createServer((req, res) => {
             if (err) throw err; //Throw any error
 
             //Change the data value in 'inspect' as json file
-            res.writeHead(200, { 'Content-type': 'application/json' });
+            res.writeHead(200, headers);
 
             //Display the db.json file
             res.end(data);
